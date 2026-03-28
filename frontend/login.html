@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pumpkin - Login</title>
+    <title>Pumpkin - login</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="container">
+    <div class="login-container">
 
-    <div class="login-card">
-        <h1>Pumpkin</h1>
+        <div class="login-card">
+            <h1>Pumpkin</h1>
+            <img src="pumpkin.jpeg" alt="pumpkin">
 
-        <form>
-            <label>Email</label>
-            <input type="email" placeholder="Enter your email">
+            <form>
+                <div class="login-input">
+                    <input type="email" name="email" id="email" placeholder="Enter your Email">
+                    <input type="password" name="password" id="password" placeholder="Enter your password">
+                </div>
 
-            <label>Password</label>
-            <input type="password" placeholder="Enter your password">
+                <div class="log">
+                    <a href="dashboard.html" class="login-btn">Login</a>
+                    <a href="#" class="forget-btn">Forgot password?</a>
+                </div>
+                <p id="signup-text">Don't have an account?
+                    <a href="signup.html" id="signup-btn">Sign up</a>
+                </p>
 
-            <button type="submit">Login</button>
-        </form>
+            </form>
+        </div>
     </div>
-
-</div>
-
 </body>
+
 </html>
