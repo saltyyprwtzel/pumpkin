@@ -5,36 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pumpkin - Signup</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style-signup.css">
 </head>
 
 <body>
-    <div class="login-container">
-        <div class="login-card">
+    <div class="signup-container">
+
+        <div class="signup-card">
+            <h1>Pumpkin</h1>
+            <img src="pumpkin.jpeg" alt="pumpkin">
+
             <form>
-                
-                <label for="Username">Username</label>
-                <input type="text" name="Username" id="Username" placeholder="Enter your Name">
+                <div class="signup-input">
+                    <input type="text" name="username" placeholder="Enter your Username">
+                    <input type="email" name="email" placeholder="Enter your Email">
+                    <input type="password" name="password" placeholder="Enter your password">
+                    <input type="password" name="repassword" placeholder="Confirm your password">
+                </div>
 
-                <label for="Email">Email</label>
-                <input type="email" name="Email" id="Email" placeholder="Enter your Email">
-
-                <label for="Password">Password</label>
-                <input type="password" name="Password" id="Password" placeholder="Enter password">
-           
-                <label for="rePassword">Confirm Password</label>
-                <input type="password" name="rePassword" id="rePassword" placeholder="Re-password">
-
-                <button type="submit">Confirm</button>
-
-                <p>Already have an account?
-                    <a href="login.html">login</a>
+                <div class="sign">
+                    <a href="login.html" class="confirm-btn">Confirm</a>
+                </div>
+                <p id="signin-text">Already have an account?
+                    <a href="login.html" id="signin-btn">Log In</a>
                 </p>
 
             </form>
         </div>
     </div>
-
 </body>
 
 </html>

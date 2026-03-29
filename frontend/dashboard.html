@@ -5,35 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pumpkin - Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-dashboard.css">
 </head>
 
 <body>
     <div class="dashboard-container">
 
         <div class="navbar">
-            <h1>Pumpkin</h1>
+            <h1>Dashboard</h1>
+            <img src="pumpkin.jpeg" alt="">
             <a href="login.html">LogOut</a>
         </div>
 
         <div class="content">
 
             <div class="sidebar">
-                <p><a href="#">My journals</a></p>
-                <p><a href="#">Booklets</a></p>
-                <p><a href="#">Calendar</a></p>
-                <p><a href="#">Settings</a></p>
+                <a href="#" class="sidebar-btn">Journals</a>
+                <a href="#" class="sidebar-btn">Booklets</a>
+                <a href="#" class="sidebar-btn">Settings</a>
+                <a href="#" class="sidebar-btn">About</a>
             </div>
 
             <div class="main">
                 <h1>Welcome</h1>
-                <p>Your journals will appear here</p>
 
-                <button id="Create">+</button>
+                <div class="create_container">
+
+                    <button id="create_btn">+</button>
+
+                    <div id="create_menu" class="hidden">
+                        <button id="new_journal">Create Journal</button>
+                        <button id="new_booklet">Create Booklet</button>
+                    </div>
+
+                </div>
 
             </div>
         </div>
     </div>
+    <script src="dashboard.js"></script>
 </body>
 
 </html>
