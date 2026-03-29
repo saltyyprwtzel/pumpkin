@@ -6,6 +6,12 @@ v0.01
 - Basic responsive layout understanding
 - First UI structure completed
 
+v0.02
+- Signup page UI
+- Dashboard layout improvement
+- Creation button and menu
+- toggle functionality
+
 Next goal:
-- Dashboard UI
-- SignUp Page UI
+- Create journal function
+- other minor changes
